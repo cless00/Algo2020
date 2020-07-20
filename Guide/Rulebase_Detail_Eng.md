@@ -354,10 +354,10 @@ Ex) speed : 10.51 | Type : float
 
 Indicates whether the target is destined for True or False.
 
-Ex) moving_forward : True | Type : bool
-
-                          | Type : float for cpp or java 
-                          
+```
+Ex) moving_forward : True 	| Type : bool
+   				| Type : float for cpp or java 
+```
 <br>
 
 ### sensing_info.moving_angle
