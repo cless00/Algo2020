@@ -26,6 +26,21 @@ For basic driving, a simple if construct, variable value allocation, and quadrat
 
 <br>
 
+### ■ Bot Template download
+
+Download where you can download from the link below.
+
+1.	https://drive.google.com/drive/folders/1j2CM232G8chkYFdCjf2W7Rn4nLAubQwS?usp=sharing
+
+2.	https://drive.google.com/drive/folders/1Dh6JMQ9z-aQFIrFjnC3WvRBaTcVViTzJ?usp=sharing
+
+3.	https://drive.google.com/drive/folders/1QlsxxmCk3p103S7Q1smnLifLnCOoX0fS?usp=sharing
+
+4.	https://drive.google.com/drive/folders/1lvlb7RXi_cvYoD2oM1eh32luK7iCpWi6?usp=sharing
+
+
+<br>
+
 ### ■ Local development environment setting (Simulator)
 
 For more information on installing the simulator, see Quick start posting on the bulletin board.
@@ -101,6 +116,63 @@ When adding an import syntax, the basic package is installed on the server, but 
 
 Developing in Python language does not require a separate IDE. It can be used as a memo pad, but we provide project files so that it can be developed directly through pycharm.
 
+#### 1. Install anaconda (install python) 
+
+ A. Connect to the URL below and download the 3.7 version installation file. 
+ 
+     https://www.anaconda.com/distribution/#download-section 
+     
+ B. Run the installation file, install Anaconda. 
+ 
+     It doesn't matter which installation Type you select. Here, just Me. 
+     
+     You can also select ALL Users. However, when installing or deleting a package, the cmd window may require administrator privileges. 
+     
+ C. Select Advanced Installation Options. 
+ 
+     a) Adding Anaconda to my PATH environment variable (uncheck default) 
+     
+        The option to add Anaconda to the Path environment variable as follows. 
+        
+        Disables this option because the previously used Python execution environment may be twisted if added to the Path. 
+        
+        If you are the first user to install anaconda, you can check this option, 
+        and you can run Python in cmd window regardless of current directory location. 
+        
+        If you do not want to pay attention to all of this, you can install it unchecked and use Anaconda Prospect instead of cmd window.
+        
+	b) Register Anaconda as my default Python 3.7
+          
+		The option to choose whether to recognize the anaconda as a default (default) Python execution environment. 
+                    
+		If you do not have the Python you used in the past, you can Install in optional state. 
+                    
+		By doing so, the installation will proceed, and it may take some time to complete the installation due to a lot of file work. 
+                    
+		When installation is complete, please check the python version in the command (cmd) window or Anaconda window. 
+                    
+		If it comes out as follows, the installation is done normally.
+                    
+
+C:\Users\SDS>python --version
+
+  Python 3.7.3 :: Anaconda, Inc.
+
+
+#### 2.install airsim module
+
+To exchange information between simulator and bot, airsim module installation is required. 
+
+ In the command window, execute "pip install airsim" and install the airsim module.
+ 
+ If there is a proxy, download it after configuring proxy as shown below. 
+ 
+ ex) using proxy in Jamsil office : pip install airsim --proxy="http://70.10.15.10:8080" --trusted-host pypi.org --trusted-host files.pythonhosted.org 
+ 
+ ※ The following warning appears during airsim installation, but there is no problem in execution. 
+ 
+ #distributed 1.26.0 has requirement tornado>=5, but you'll have tornado 4.5.3 which is incompatible.
+ 
 
 <br>
 
@@ -284,7 +356,8 @@ Indicates whether the target is destined for True or False.
 
 Ex) moving_forward : True | Type : bool
 
-
+                          | Type : float for cpp or java 
+                          
 <br>
 
 ### sensing_info.moving_angle
@@ -501,7 +574,7 @@ If not defined, one of 1 to 3 obstacles is set arbitrarily.
      "SettingsVersion": 1.2,
      "SimMode": "Car",
      "Algo": {
-        "Map": "1"
+        "Map": "4"
      },
      "Vehicles": {
         "Car1": {
@@ -542,7 +615,7 @@ Json file sample and description
      "SettingsVersion": 1.2,
      "SimMode": "Car",
      "Algo": {
-        "Map": "1"
+        "Map": "4"
      },
      "Vehicles": {
         "Car1": {
