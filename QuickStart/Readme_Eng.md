@@ -6,7 +6,11 @@
 
 Download the simulator. The simulator contains a track, and the simulator file is distributed for each track.
 
-※ [Related file download link](https://drive.google.com/drive/folders/1aB7uDYu3Maf3zcMCYBuEb7HRT0RCxNXt?usp=sharing)
+Download where you can download from the link below.
+1.  https://drive.google.com/drive/folders/1aB7uDYu3Maf3zcMCYBuEb7HRT0RCxNXt?usp=sharing
+2.  https://drive.google.com/drive/folders/14kq3GQ9mCYhBP0en003HXwnelIM2D-VD?usp=sharing
+3.  https://drive.google.com/drive/folders/1DJR8fTc2MPLQELvf3QZzFR-nhH1cD0Ka?usp=sharing
+4.  https://drive.google.com/drive/folders/1U2sjHIWO8_AjlyN4jz8H7iTTF32Me-_G?usp=sharing
 
 
 The simulator execution environment is MS Windows 7 / MS Windows 10. (64 bit)
@@ -100,18 +104,20 @@ After modifying settings.json, you must re-run simulator.
 
 Obstacle information can be set according to the "Map" value. 
  
- "Map": "0" > No obstacles 
+```
+"Map": "0" > No obstacles 
  
         "1" ~ "3" > Obstacle type 1 ~ 3 
  
         "4" > Obstacle Random
+```
 
 ```
     {
 	 "SettingsVersion": 1.2,
 	 "SimMode" : "Car",
 	 "Algo": {
-	 	"Map": "1"
+	 	"Map": "4"
 	 },
 	 "Vehicles": {
 	 	"Car1": {
