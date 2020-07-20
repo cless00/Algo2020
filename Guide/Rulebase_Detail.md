@@ -117,33 +117,55 @@ Python 언어로 개발 시에는 별도의 IDE가 필요하지는 않습니다.
 <br>
 
 ## 1.anaconda 설치하기 (python 설치하기)
+
 A.아래의 URL로 접속하여, 3.7 버전 설치 파일을 다운로드 받습니다.
+
 https://www.anaconda.com/distribution/#download-section
 
 B. 설치 파일을 실행하여, Anaconda를 설치합니다.
+
 Installation Type은 어느 것을 선택해도 상관없습니다. 여기서는 Just Me를 선택해 봅니다.
+
 ALL Users 를 선택 하여도 무방합니다. 다만, 패키지를 설치 또는 삭제시 cmd 창을에서 관리자 권한을 요구하는 경우가 있습니다.
 
 C. 고급 설치 옵션 선택하기.
- a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
+
+a) Adding Anaconda to my PATH environment variable (default 는 체크해제)
+
 다음과 같이 Path 환경변수에 Anaconda를 추가하는 옵션입니다. 기존에 사용하던 파이썬 실행환경이 Path에 추가되어있는 경우 꼬일 수 있으므로, 이 옵션을 해제합니다.
+
 만약 아나콘다를 처음 설치하는 사용자라면 이 옵션을 체크해도 무방하며, cmd 창에서 현재 디렉토리 위치와 상관없이 파이썬을 실행 할 수 있습니다.
+
 이 모든것을 신경쓰고 싶지 않다면, 체크 해제한 상태로 설치하고 cmd 창 대신에 Anaconda Prompt 를 사용하시면 됩니다.
- b) Register Anaconda as my default Python 3.7
+
+b) Register Anaconda as my default Python 3.7
+
 아나콘다를 기본(Default) 파이썬 실행환경으로 인식시킬지 여부를 선택하는 옵션입니다. 기존에 사용하던 파이썬이 없다면 선택(checked) 상태로 Install 을 하면 됩니다.
+
 여기까지 하면 설치는 진행이 되고, 파일작업이 많아 설치 완료까지 다소 시간이 걸릴 수 있습니다.
+
 설치가 완료되면 command (cmd) 창 혹은 Anaconda prompt 에서 python 버전을 확인해보시기 바랍니다.
+
 다음과 같이 나오면 설치가 정상적으로 이루어진 것입니다.
+
 C:\Users\SDS>python --version
+
   Python 3.7.3 :: Anaconda, Inc.
 
 <br>
+
 ## 2.airsim 모듈 설치
+
 Simulator와 Bot이 정보를 주고 받기 위해서는 airsim 모듈 설치가 필요합니다.
+
 command 창에서 "pip install airsim" 를 실행해서 airsim 모듈을 설치합니다.
+
 proxy가 있을 경우, 아래 처럼 proxy 설정 후 다운로드 진행합니다. 
+
 예) 잠실 사옥 proxy 사용 : pip install airsim --proxy="http://70.10.15.10:8080" --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
 ※ airsim 설치 도중에 다음과 같은 경고가 나타나지만, 실행에는 문제가 없습니다.
+
 #distributed 1.26.0 has requirement tornado>=5, but you'll have tornado 4.5.3 which is incompatible.
 
 <br>
