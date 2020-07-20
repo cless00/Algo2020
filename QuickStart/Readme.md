@@ -6,7 +6,11 @@ Korean | [English](./Readme_Eng.md)  | [Home](../README.md)
 
 시뮬레이터를 다운받습니다. 시뮬레이터에 트랙이 포함되어 있으며, 각 트랙별로 시뮬레이터 파일이 배포됩니다.
 
-※ [관련 파일 다운로드 링크](https://drive.google.com/drive/folders/1aB7uDYu3Maf3zcMCYBuEb7HRT0RCxNXt?usp=sharing)
+※ 아래 링크 중 다운로드 가능한 곳에서 다운로드 받으세요.
+1.  https://drive.google.com/drive/folders/1aB7uDYu3Maf3zcMCYBuEb7HRT0RCxNXt?usp=sharing
+2.  https://drive.google.com/drive/folders/14kq3GQ9mCYhBP0en003HXwnelIM2D-VD?usp=sharing
+3.  https://drive.google.com/drive/folders/1DJR8fTc2MPLQELvf3QZzFR-nhH1cD0Ka?usp=sharing
+4.  https://drive.google.com/drive/folders/1U2sjHIWO8_AjlyN4jz8H7iTTF32Me-_G?usp=sharing
 
 
 시뮬레이터 실행환경은 MS Windows 7 / MS Windows 10 입니다. (64 bit)
@@ -112,7 +116,7 @@ settings.json을 수정 후에는 simulator를 재실행해야 합니다.
 	 "SettingsVersion": 1.2,
 	 "SimMode" : "Car",
 	 "Algo": {
-	 	"Map": "1"
+	 	"Map": "4"
 	 },
 	 "Vehicles": {
 	 	"Car1": {
