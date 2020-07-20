@@ -348,7 +348,7 @@ Ex) speed : 10.51 | Type : float
 목표지점을 항하여 정주행(True) 하고 있는지 역주행(False) 하고 있는 나타냅니다.
 
 Ex) moving_forward : True | Type : bool
-
+<br>
                           | Type : float for cpp or java
 
 <br>
