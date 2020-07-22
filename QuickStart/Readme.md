@@ -4,6 +4,14 @@ Korean | [English](./Readme_Eng.md)  | [Home](../README.md)
 ### 01. 시뮬레이터 준비하기
 --------------------------------
 
+IE로 접속했을 경우 에러가 발생하면, Chrome이나 Edge 브라우저를 이용해 접속해보세요.
+
+BOT Teamplate 다운로드 위치입니다.
+1. https://drive.google.com/drive/folders/1j2CM232G8chkYFdCjf2W7Rn4nLAubQwS?usp=sharing
+2. https://drive.google.com/drive/folders/1Dh6JMQ9z-aQFIrFjnC3WvRBaTcVViTzJ?usp=sharing
+3. https://drive.google.com/drive/folders/1QlsxxmCk3p103S7Q1smnLifLnCOoX0fS?usp=sharing
+4. https://drive.google.com/drive/folders/1lvlb7RXi_cvYoD2oM1eh32luK7iCpWi6?usp=sharing
+
 시뮬레이터를 다운받습니다. 시뮬레이터에 트랙이 포함되어 있으며, 각 트랙별로 시뮬레이터 파일이 배포됩니다.
 
 ※ 아래 링크 중 다운로드 가능한 곳에서 다운로드 받으세요.
@@ -14,6 +22,7 @@ Korean | [English](./Readme_Eng.md)  | [Home](../README.md)
 
 
 시뮬레이터 실행환경은 MS Windows 7 / MS Windows 10 입니다. (64 bit)
+
 
 다운받은 파일압축을 풀면 다음과 같이 되어있습니다. 이곳에서 run.bat 를 실행하면 됩니다.
 
